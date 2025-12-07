@@ -1,13 +1,14 @@
 body{
     font-family: Roboto, sans-serif;
     background: #FFFFFF;
-    color:  #2E2F42;
+    color: #434455;
 }
 ul, ol{
     list-style-type: none;
 }
 a{
     text-decoration: none;
+    font-style: normal;
     color: #2E2F42;
 }
 h2{
@@ -37,6 +38,9 @@ p{
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
 }
 .nav{
         font-weight: 500;
@@ -44,11 +48,19 @@ p{
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+.nav a:hover,
+.nav a:focus{
+    color: #404BBF;
+}
 .address{
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+}
+.address a:hover,
+.address a:focus{
+    color: #404BBF;
 }
 .hero{
     background-color: #2E2F42;
@@ -70,12 +82,22 @@ p{
     letter-spacing: 0.04em;
      color: #FFFFFF;
 }
+.hero button:hover,
+.hero button:focus{
+    background-color:#404BBF;
+}
 #team h3,#team p{
     text-align: center;
 } 
+#team{
+    background-color: #F4F4FD;
+}
+#team li{
+    background-color: #FFFFFF;
+}
 .footer{
     background-color: #2E2F42;
-    color: #FFFFFF;
+    color: #F4F4FD;
 }
 .footer .logo{
     color: #F4F4FD;
