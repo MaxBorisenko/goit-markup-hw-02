@@ -71,6 +71,7 @@ p{
         line-height: 1.07143;
         letter-spacing: 0.02em;
         color: #FFFFFF;
+        text-align: center;
 }
 .hero button{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -86,13 +87,13 @@ p{
 .hero button:focus{
     background-color:#404BBF;
 }
-#team h3,#team p{
+.team h3,.team p{
     text-align: center;
 } 
-#team{
+.team{
     background-color: #F4F4FD;
 }
-#team li{
+.team li{
     background-color: #FFFFFF;
 }
 .footer{
